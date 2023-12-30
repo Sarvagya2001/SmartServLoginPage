@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Your Dashboard</title>
+    <link rel="stylesheet" href="dashboard.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+</head>
+<body>
+<div id="dashboard-container">
+    <h4>Company Metric</h4>
+
+    <!-- Row 1 -->
+    <div class="dashboard-row">
+        <div class="dashboard-box">
+            <h4 style="color:#29AB87;">$406,411.29</h4>
+            <p>Total Revenue</p>
+        </div>
+
+        <div class="dashboard-box">
+            <h4>$620</h4>
+            <p>STotal Jobs Avg</p>
+        </div>
+
+        <div class="dashboard-box">
+            <h4>655</h4>
+            <p>Tickets Created</p>
+        </div>
+
+        <div class="dashboard-box">
+            <h4>735</h4>
+            <p>Tickets Scheduled</p>
+        </div>
+    </div>
+
+    <!-- Row 2 -->
+    <div class="dashboard-row">
+        <div class="dashboard-box">
+            <h4 style="color: red;">$110,228.8</h4>
+            <p>Outstanding Amount</p>
+        </div>
+
+        <div class="dashboard-box">
+            <h4>105</h4>
+            <p>Memberships Sold</p>
+        </div>
+
+        <div class="dashboard-box">
+            <h4>436</h4>
+            <p>Jobs Completed</p>
+        </div>
+
+        <div class="dashboard-box">
+            <h4>65</h4>
+            <p>Total Canceled</p>
+        </div>
+    </div>
+
+    
+    <div style="float: left;width: 50%;"><h3>Revenue By Job Location</h3></div>
+    <div style="float: right;width: 50%;"><h3>Revenue By Job Type</h3></div>
+
+    <div class="graph1">
+        <canvas id="myChart"></canvas>
+    </div>
+    <div class="graph2">
+        <canvas id="myChart2"></canvas>
+    </div>
+    
+    <script src="graph.js"></script>
+    </body>
+    </html>

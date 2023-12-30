@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #f2f2f2;
+
+}
+h3{
+    padding-top: 20px;
+}
+
+#dashboard-container {
+    text-align: left;
+    padding: 20px;
+}
+
+.dashboard-row {
+    display: flex;
+}
+
+.dashboard-box {
+    flex: 1;
+    height: 100px;
+    background-color: #ffffff;
+    border-left: 10px solid #29AB87; 
+    margin: 10px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.graph1{
+    width:45%;
+    padding-left: 10px;
+    background-color: #ffffff;
+    /* max-width:600px; */
+    float: left
+}
+
+.graph2{
+    width:45%;
+    padding-right: 70px;
+    background-color: #ffffff;
+    /* max-width:100px; */
+    float: right
+}
+
+
